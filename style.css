@@ -1,0 +1,117 @@
+.handlee-regular {
+  font-family: "Handlee", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+body {
+  text-align: center;
+}
+#hearo {
+  background-color: rgb(215, 239, 250);
+}
+#left-img {
+  float: left;
+  margin-left: 10%;
+}
+#right-img {
+  float: right;
+  margin-right: 10%;
+}
+#hearo h1,
+h2 {
+  clear: both;
+  text-align: center;
+  color: cadetblue;
+  font-size: 3.6em;
+}
+
+#hearo h2 {
+  font-size: 2.5em;
+}
+#mountian {
+  clear: both;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+span {
+  text-decoration: underline;
+}
+
+#My-image {
+  margin-top: 150px;
+
+  text-align: center;
+}
+p {
+  width: 380px;
+  margin: 0 auto;
+}
+hr {
+  margin-top: 3em;
+  width: 19%;
+  border-top: 10px dotted hsla(182, 41%, 62%, 0.326);
+  border-bottom: none;
+}
+#My-skill {
+  margin-top: 10em;
+}
+#My-skill > div {
+  width: 500px;
+  margin: 6em auto;
+}
+.skill-image {
+  height: 150px;
+  width: 200px;
+  float: left;
+  margin-right: 1em;
+  object-fit: cover;
+}
+.skill-title {
+  display: inline;
+  font-size: 1.5em;
+}
+#My-skill > div > div {
+  text-align: left;
+}
+.Contact {
+  margin: 6em auto;
+}
+button {
+  margin: 2em;
+  background-color: rgb(65, 215, 165);
+  border: none;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 1.5em;
+  color: aliceblue;
+}
+button:hover {
+  background-color: rgb(5, 176, 119);
+}
+#footer > ul {
+  padding-top: 3em;
+}
+#footer > p {
+  padding-top: 3em;
+  color: rgb(255, 255, 255);
+}
+.container {
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2em;
+}
+a {
+  color: rgb(100, 205, 253);
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(250, 254, 255);
+}
+#footer {
+  background-color: rgb(215, 239, 250);
+  height: 200px;
+}
